@@ -1,7 +1,10 @@
-function MediumEditor(elements, options) {
+function MediumEditorPackage(elements, options) {
     'use strict';
     return this.init(elements, options);
 }
+
+/* add for meteor package */
+MediumEditor = MediumEditorPackage;
 
 (function (window, document) {
     'use strict';
